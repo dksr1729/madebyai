@@ -1,0 +1,1451 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <title>Network Space - Digital Marketing Experts</title>
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="icon" href="{% static '/images/logo.png' %}" type="image/x-icon">
+
+      <!-- Enhanced SEO Meta Tags -->
+      <meta name="description" content="Network Space is a leading digital marketing agency specializing in SEO optimization, social media management, email marketing, brand profiling, and web development to elevate your online presence.">
+      <meta name="keywords" content="network space, networkspace, network space networkspace, web dev, web development,digital marketing agency, SEO optimization, social media management, email marketing,SMMA , web development, branding, online advertising, digital strategy">
+      <meta name="robots" content="index, follow">
+      <meta name="author" content="Network Space">
+  
+      <!-- Canonical URL to prevent duplicate content -->
+      <link rel="canonical" href="https://www.networkspace.in">
+  
+      <!-- Geotargeting (if applicable) -->
+      <meta name="geo.region" content="IN">
+      <meta name="geo.placename" content="Bengaluru, India">
+  
+      <!-- Open Graph Meta Tags -->
+      <meta property="og:title" content="Network Space - Digital Marketing Experts">
+      <meta property="og:description" content="Expert digital marketing services to boost your online presence. Specializing in SEO, social media marketing, and web development.">
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="https://www.networkspace.in">
+      <meta property="og:image" content="https://www.networkspace.in/images/social-share-image.jpg">
+      <meta property="og:image:alt" content="Network Space - Your Digital Marketing Partner">
+      <meta property="og:locale" content="en_IN">
+  
+      <!-- Twitter Card Meta Tags -->
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:site" content="@NetworkSpace">
+      <meta name="twitter:creator" content="@NetworkSpace">
+      <meta name="twitter:title" content="Network Space - Digital Marketing Experts">
+      <meta name="twitter:description" content="Discover professional digital marketing services. From SEO to email marketing, we elevate brands with comprehensive strategies.">
+      <meta name="twitter:image" content="https://www.networkspace.in/images/twitter-card-image.jpg">
+  
+      <!-- Schema.org Structured Data -->
+          <!-- Organization Schema -->
+          <script type="application/ld+json">
+          {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Network Space",
+          "url": "https://www.networkspace.in", 
+          "logo": "https://www.networkspace.com/static/webapp/images/logo.png",
+          "description": "Expert Digital Marketing and Brand Profiling Solutions helping businesses craft customized digital marketing strategies.",
+          "contactPoint": {
+              "@type": "ContactPoint",
+              "contactType": "customer service",
+              "telephone": "+91-832-842-3151", 
+              "email": "team@networkspace.in"
+          },
+          "sameAs": [
+              "https://www.facebook.com/networkspace",
+              "https://www.linkedin.com/company/networkspace",
+              "https://www.instagram.com/networkspace"
+          ]
+          }
+          </script>
+          
+          <!-- Local Business Schema -->
+          <script type="application/ld+json">
+          {
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "name": "Network Space",
+          "image": "https://www.networkspace.com/static/webapp/images/logo.png",
+          "description": "Digital marketing agency specializing in brand profiling, SEO, social media marketing, and comprehensive digital strategies.",
+          "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Main road", 
+              "addressLocality": "Bengaluru",
+              "addressRegion": "Karnataka",
+              "postalCode": "560037",
+              "addressCountry": "India"
+          },
+          "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 12.9569,
+              "longitude": 77.7011
+          },
+          "telephone": "+91-832-842-3151",
+          "email": "team@networkspace.in",
+          "priceRange": "$$",
+          "openingHoursSpecification": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+              "Monday",
+              "Tuesday", 
+              "Wednesday", 
+              "Thursday", 
+              "Friday",
+              "Saturday",
+              "Sunday"
+              ],
+              "opens": "00:00",
+              "closes": "23:59"
+          }
+          }
+          </script>
+          
+          <!-- Services Schema -->
+          <script type="application/ld+json">
+          {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "name": "Network Space Digital Marketing Services",
+          "provider": {
+              "@type": "Organization",
+              "name": "Network Space"
+          },
+          "serviceType": "Digital Marketing",
+          "areaServed": "Global",
+          "offers": {
+              "@type": "Offer",
+              "itemOffered": [
+              {
+                  "@type": "Service",
+                  "name": "Brand Profiling",
+                  "description": "Strategic brand identity development and positioning"
+              },
+              {
+                  "@type": "Service", 
+                  "name": "Search Engine Optimization (SEO)",
+                  "description": "Comprehensive SEO strategies to improve online visibility"
+              },
+              {
+                  "@type": "Service",
+                  "name": "Social Media Marketing",
+                  "description": "Targeted social media strategies to engage and convert audiences"
+              },
+              {
+                  "@type": "Service",
+                  "name": "Email Marketing",
+                  "description": "Personalized email campaigns for customer engagement"
+              },
+              {
+                  "@type": "Service",
+                  "name": "WhatsApp Targeting",
+                  "description": "Direct marketing and communication via WhatsApp"
+              },
+              {
+                  "@type": "Service",
+                  "name": "Performance Analytics",
+                  "description": "Data-driven insights and performance tracking"
+              },
+              {
+                  "@type": "Service",
+                  "name": "Paid Advertising",
+                  "description": "Multi-platform advertising strategies"
+              },
+              {
+                  "@type": "Service",
+                  "name": "Website Development",
+                  "description": "Custom, responsive website design and development"
+              }
+              ]
+          }
+          }
+          </script>
+      <!--SCHEMA COMPLETE-->
+  
+
+  <style>
+    html, body { scroll-behavior: smooth; margin: 0; padding: 0; height: 100%; font-size:1em; }
+  </style>
+</head>
+
+<body>
+  
+  <!-- NAVBAR -->
+  <nav class="fixed top-0 left-0 right-0 bg-gray-900 text-white z-50">
+    <div class="container mx-auto px-4">
+      <div class="flex items-center justify-between h-16">
+        
+        <!-- Logo -->
+        <div class="flex-shrink-0">
+          <h1 style="display:flex;" class="text-2xl font-bold text-[#22745A]">
+            <img style="width:30px; height:30px;" src="{% static '/images/logo.png' %}" /> &nbsp;
+            <a href="#mission_statement" class="hover:text-[#1a5743] transition-all duration-300"> &nbsp; Network Space</a>
+          </h1>
+        </div>
+  
+        <!-- Desktop Navigation -->
+        <div class="hidden lg:flex lg:items-center lg:space-x-8">
+          <a href="#mission_statement" class="text-lg hover:text-[#22745A] transition-colors active">Home</a>
+          <div class="relative">
+            <button id="services-button" class="text-lg hover:text-[#22745A] transition-colors">
+              Services
+              <svg class="w-4 h-4 ml-1 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <ul
+              id="services-menu"
+              class="absolute left-0 top-full mt-2 p-2 bg-gray-800 rounded-lg w-48 hidden"
+            >
+              <li><a href="#services_grid" class="block py-2 px-4 hover:bg-gray-700">Brand Profiling</a></li>
+              <li><a href="#services_grid" class="block py-2 px-4 hover:bg-gray-700">SEO</a></li>
+              <li><a href="#services_grid" class="block py-2 px-4 hover:bg-gray-700">Social Media Marketing</a></li>
+              <li><a href="#services_grid" class="block py-2 px-4 hover:bg-gray-700">Email Marketing</a></li>
+              <li><a href="#services_grid" class="block py-2 px-4 hover:bg-gray-700">Whatsapp Targeting</a></li>
+              <li><a href="#services_grid" class="block py-2 px-4 hover:bg-gray-700">Performance Analytics</a></li>
+              <li><a href="#services_grid" class="block py-2 px-4 hover:bg-gray-700">Paid Advertising</a></li>
+              <li><a href="#services_grid" class="block py-2 px-4 hover:bg-gray-700">Website Development</a></li>
+            </ul>
+          </div>
+          <a href="#about_section" class="text-lg hover:text-[#22745A] transition-colors">About</a>
+          <a href="#contact_form" class="text-lg hover:text-[#22745A] transition-colors">Contact</a>
+        </div>
+  
+        <!-- Mobile menu button -->
+        <button id="mobile-menu-button" class="lg:hidden p-2 rounded-lg bg-gray-800 hover:bg-gray-700">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-16 6h16" />
+          </svg>
+        </button>
+      </div>
+  
+      <!-- Mobile Navigation Menu -->
+      <div id="mobile-menu" class="hidden lg:hidden pb-4">
+        <ul class="space-y-4">
+          <li><a href="#mission_statement" class="block text-lg hover:text-[#22745A] transition-colors">Home</a></li>
+          <li>
+            <button id="mobile-services-button" class="flex items-center justify-between w-full text-lg hover:text-[#22745A] transition-colors">
+              Services
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <ul id="mobile-services-menu" class="mt-2 ml-4 space-y-2 hidden">
+              <li><a href="#services_grid" class="block hover:text-[#22745A]">Brand Profiling</a></li>
+              <li><a href="#services_grid" class="block hover:text-[#22745A]">SEO</a></li>
+              <li><a href="#services_grid" class="block hover:text-[#22745A]">Social Media Marketing</a></li>
+              <li><a href="#services_grid" class="block hover:text-[#22745A]">Email Marketing</a></li>
+              <li><a href="#services_grid" class="block hover:text-[#22745A]">Whatsapp Targeting</a></li>
+              <li><a href="#services_grid" class="block hover:text-[#22745A]">Performance Analytics</a></li>
+              <li><a href="#services_grid" class="block hover:text-[#22745A]">Paid Advertising</a></li>
+              <li><a href="#services_grid" class="block hover:text-[#22745A]">Website Development</a></li>
+            </ul>
+          </li>
+          <li><a href="#about_section" class="block text-lg hover:text-[#22745A] transition-colors">About</a></li>
+          <li><a href="#contact_form" class="block text-lg hover:text-[#22745A] transition-colors">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+    
+    <script>
+      // Desktop Services Dropdown Toggle
+      document.addEventListener('DOMContentLoaded', function() {
+        const servicesMenu = document.getElementById('services-menu');
+        const mobileServicesMenu = document.getElementById('mobile-services-menu');
+        const mobileMenu = document.getElementById('mobile-menu');
+    
+        // Desktop Services Dropdown Toggle
+        document.getElementById('services-button').addEventListener('click', function(e) {
+            e.stopPropagation(); // Prevent document click from immediately closing menu
+            servicesMenu.classList.toggle('hidden');
+        });
+    
+        // Mobile Services Dropdown Toggle
+        document.getElementById('mobile-services-button').addEventListener('click', function() {
+            mobileServicesMenu.classList.toggle('hidden');
+        });
+    
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            mobileMenu.classList.toggle('hidden');
+        });
+    
+        // Close menus when clicking navigation links
+        document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', function() {
+                // Close services dropdown menus
+                servicesMenu.classList.add('hidden');
+                mobileServicesMenu.classList.add('hidden');
+                // Close mobile menu
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    
+        // Close services menu when clicking outside
+        document.addEventListener('click', function(e) {
+            if (!servicesMenu.contains(e.target) && !document.getElementById('services-button').contains(e.target)) {
+                servicesMenu.classList.add('hidden');
+            }
+        });
+    });
+  </script>
+  
+
+  <!-- COMPONENT 1: ELEVATION-->
+  <style>
+    #mission_statement {
+      position: relative;
+      background-image: url('/static/images/roadbg.gif');
+    }
+  
+    #mission_statement::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.80); /* Increased to 0.55 to make background GIF opacity 45% */
+      z-index: 10;
+    }
+    #elevationpara{
+      font-weight: 600;
+    }
+    #mission_statement .relative {
+      z-index: 20;
+    }
+    </style>
+    
+    <section id="mission_statement" class="relative bg-black text-white py-20 px-4 lg:px-8 bg-cover bg-center bg-no-repeat">
+      <!-- Background Opacity -->
+      <div class="absolute inset-0 bg-black opacity-10 z-10"></div>
+      <div class="relative max-w-6xl mx-auto z-20">
+        <!-- Hero Heading -->
+        <div class="text-center mb-16 opacity-0 transform translate-y-10 transition-all duration-1000" data-aos="fade-up">
+          <h1 class="text-4xl lg:text-6xl font-bold mb-8">
+            <span class="text-[#FFFFFFFF]">Elevate</span> your Branding Experience & Marketing Strategies with<br />
+            <span class="text-[#22745A]">Network Space</span>
+          </h1>
+          <a href="#contact_form" class="inline-block bg-[#22745A] hover:bg-[#1a5743] text-white font-bold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105">
+            Get in Touch
+          </a>
+        </div>
+    
+        <!-- Main Description -->
+        <div class="mb-16 opacity-0 transform translate-y-10 transition-all duration-1000" data-aos="fade-up" data-aos-delay="200">
+          <p id="elevationpara" class="text-lg lg:text-xl text-justify leading-relaxed text-gray-300 font-semibold text-center font-light" style="line-height:1.5; font-size:x-large;">
+            <span class="text-2xl lg:text-3xl font-bold text-[#22745A]">Network Space's</span> Expert Digital Marketing and Brand Profiling Solutions helps you craft customized digital marketing strategies tailored to your business goals. From SEO optimization and content marketing to paid advertising campaigns, we employ proven methods to enhance your brand visibility in this digital network space. Our goal is to drive high-quality traffic to your business, convert visitors into leads, and transform leads into sales, ensuring measurable results that grow your business exponentially.
+          </p>
+        </div>
+      </div>
+  </section>
+
+  <!-- ################################################## -->
+
+
+  <!--COMPONENT 2: WHY US CONTENT-->
+  <section id="digital_branding" class="relative bg-black text-white py-20 px-4 lg:px-8">
+    <!-- Background GIF -->
+    <div class="absolute inset-0">
+        <div 
+            class="h-full w-full bg-cover bg-center opacity-35"
+            style="background-image: url('static/images/component2bg.png');">
+        </div>
+    </div>
+
+    <!-- Content Section -->
+    <div class="relative max-w-6xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <!-- Left Column -->
+            <div class="opacity-0 transform -translate-x-10 transition-all duration-1000 animate-on-scroll" data-aos="fade-right">
+                <h2 class="text-4xl lg:text-5xl font-bold mb-6">
+                    <span class="text-[#22745A]">Experience</span> the Power of<br/>
+                    Digital Branding
+                </h2>
+                <div class="h-1 w-24 bg-[#22745A] mb-8"></div>
+                <p class="text-xl text-gray-300 leading-relaxed">
+                    In today's digital-first world, every product or service is just a click away. Building a strong online presence is essential to becoming the preferred choice for your audience. With Networkspace, you can reach millions of potential customers through effective digital marketing strategies. Announce your brand to the world, dominate your niche, and watch your business thrive.
+                </p>
+            </div>
+
+            <!-- Right Column -->
+            <div class="opacity-0 transform translate-x-10 transition-all duration-1000 animate-on-scroll" data-aos="fade-left">
+                <div class="bg-gray-900 p-8 rounded-lg border border-[#22745A]">
+                    <h2 class="text-4xl lg:text-5xl font-bold mb-6">
+                        Why <span class="text-[#22745A]">Us</span>?
+                    </h2>
+                    <div class="h-1 w-24 bg-[#22745A] mb-8"></div>
+                    <p class="text-xl text-gray-300 leading-relaxed">
+                        We stand out as a top-tier digital marketing and branding agency by delivering unparalleled services that focus on results. Our approach involves understanding your objectives, creating targeted campaigns, and deploying fresh, relevant content to maximize your ROI.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Updated Script for Animation -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            function isElementInView(element) {
+                const rect = element.getBoundingClientRect();
+                const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+                
+                // Modified viewport calculation to trigger earlier on mobile
+                return (
+                    (rect.top <= windowHeight * 0.8 && rect.bottom >= 0) ||
+                    (rect.bottom >= 0 && rect.top <= windowHeight)
+                );
+            }
+
+            function animateOnScroll() {
+                const elements = document.querySelectorAll('.animate-on-scroll');
+                
+                elements.forEach(element => {
+                    if (isElementInView(element)) {
+                        element.style.opacity = '1';
+                        element.style.transform = 'translateX(0)';
+                    }
+                });
+            }
+
+            // Initial check on page load
+            setTimeout(animateOnScroll, 100);
+
+            // Add scroll event listener with throttling
+            let scrollTimeout;
+            window.addEventListener('scroll', function() {
+                if (!scrollTimeout) {
+                    scrollTimeout = setTimeout(function() {
+                        animateOnScroll();
+                        scrollTimeout = null;
+                    }, 50);
+                }
+            });
+
+            // Handle resize events
+            window.addEventListener('resize', animateOnScroll);
+
+            // Force check visibility on orientation change for mobile devices
+            window.addEventListener('orientationchange', function() {
+                setTimeout(animateOnScroll, 100);
+            });
+        });
+    </script>
+  </section>
+  <!-- ################################################## -->
+
+  <!--COMPONENT 3 : WHY CHOOSE NETWORK SPACE-->
+  <section id="why_choose_us" class="bg-gray-950 text-white py-20 px-4 lg:px-8">
+    <div class="max-w-6xl mx-auto">
+        <!-- Section Header -->
+        <div class="text-center mb-16 opacity-0 transform translate-y-10 transition-all duration-1000 animate-on-scroll" data-aos="fade-up">
+            <h2 class="text-4xl lg:text-5xl font-bold mb-6">
+                Why Choose <span class="text-[#22745A]">Network Space</span>?
+            </h2>
+            <div class="h-1 w-24 bg-[#22745A] mx-auto"></div>
+        </div>
+
+        <!-- Features Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Feature 1 -->
+            <div class="bg-gray-900 p-8 rounded-lg border border-[#22745A] opacity-0 transform translate-x-10 transition-all duration-1000 hover:scale-105 hover:transition-transform hover:duration-300 animate-on-scroll" data-aos="fade-left" data-aos-delay="100">
+                <div class="text-[#22745A] mb-4">
+                    <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"/>
+                        <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"/>
+                    </svg>
+                </div>
+                <h3 class="text-2xl font-bold mb-4">Strategic Vision</h3>
+                <p class="text-gray-300">We develop targeted campaigns aligned with your business objectives to maximize impact and ROI.</p>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="bg-gray-900 p-8 rounded-lg border border-[#22745A] opacity-0 transform translate-y-10 transition-all duration-1000 hover:scale-105 hover:transition-transform hover:duration-300 animate-on-scroll" data-aos="fade-up" data-aos-delay="200">
+                <div class="text-[#22745A] mb-4">
+                    <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z"/>
+                    </svg>
+                </div>
+                <h3 class="text-2xl font-bold mb-4">Expert Team</h3>
+                <p class="text-gray-300">Our dedicated professionals bring blend of AI tools and Expertise in digital marketing and brand development.</p>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="bg-gray-900 p-8 rounded-lg border border-[#22745A] opacity-0 transform -translate-x-10 transition-all duration-1000 hover:scale-105 hover:transition-transform hover:duration-300 animate-on-scroll" data-aos="fade-right" data-aos-delay="300">
+                <div class="text-[#22745A] mb-4">
+                    <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"/>
+                    </svg>
+                </div>
+                <h3 class="text-2xl font-bold mb-4">Timely Delivery</h3>
+                <p class="text-gray-300">We prioritize meeting deadlines and delivering results that exceed expectations.</p>
+            </div>
+        </div>
+
+        <!-- Highlighted Message -->
+        <div class="mt-16 text-center opacity-0 transform translate-y-10 transition-all duration-1000 animate-on-scroll" data-aos="fade-up">
+            <div class="bg-gradient-to-r from-[#22745A]/20 to-[#22745A]/5 p-8 rounded-lg border border-[#22745A]">
+                <p class="text-2xl font-bold">
+                    Let us help you build traction, see results, and establish your brand as a leading force in the business network
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Updated Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            function isElementInView(element) {
+                const rect = element.getBoundingClientRect();
+                const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+                
+                // Modified viewport calculation to trigger earlier
+                return (
+                    (rect.top <= windowHeight * 0.85 && rect.bottom >= 0) ||
+                    (rect.bottom >= 0 && rect.top <= windowHeight)
+                );
+            }
+
+            function animateOnScroll() {
+                const elements = document.querySelectorAll('.animate-on-scroll');
+                
+                elements.forEach(element => {
+                    if (isElementInView(element)) {
+                        // Add a small delay based on data-aos-delay
+                        const delay = element.getAttribute('data-aos-delay') || 0;
+                        setTimeout(() => {
+                            element.style.opacity = '1';
+                            element.style.transform = 'translate(0, 0)';
+                        }, delay);
+                    }
+                });
+            }
+
+            // Initial load animation
+            setTimeout(animateOnScroll, 100);
+
+            // Throttled scroll handler
+            let scrollTimeout;
+            window.addEventListener('scroll', function() {
+                if (!scrollTimeout) {
+                    scrollTimeout = setTimeout(function() {
+                        animateOnScroll();
+                        scrollTimeout = null;
+                    }, 50);
+                }
+            });
+
+            // Handle resize and orientation change
+            window.addEventListener('resize', animateOnScroll);
+            window.addEventListener('orientationchange', function() {
+                setTimeout(animateOnScroll, 100);
+            });
+
+            // Force check on page load
+            animateOnScroll();
+        });
+    </script>
+  </section>
+  
+  <!-- ################################################## -->
+   
+
+  <!--COMPONENT 4 : OUR SERVICES -->
+      <section id="services_grid" 
+        class="bg-black text-white py-20 px-4 lg:px-8 relative" 
+        style="background: url('static/images/bgdesign1.png') no-repeat center center; background-size: cover; opacity: 1;">
+        <div class="absolute inset-0 bg-black opacity-90"></div> <!-- Added for extra opacity layer -->
+        <div class="relative max-w-6xl mx-auto">
+          <!-- Section Header -->
+          <div class="text-center mb-16 opacity-0 transform translate-y-10 transition-all duration-1000" data-aos="fade-up">
+            <h2 class="text-4xl lg:text-5xl font-bold mb-6">
+              Our <span class="text-[#22745A]">Services</span>
+            </h2>
+            <div class="h-1 w-24 bg-[#22745A] mx-auto"></div>
+          </div>
+
+          <!-- Services Grid -->
+          <div id="servicessection" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Service 1 -->
+            <div class="bg-gray-900 rounded-lg border border-[#22745A] overflow-hidden opacity-0 transform translate-y-10 transition-all duration-1000" data-aos="fade-up">
+              <div class="p-6">
+                <h3 class="text-xl font-bold mb-4">Brand Profiling</h3>
+                <p class="text-gray-300 mb-4">Create a distinctive brand identity that resonates with your target audience.</p>
+                <button class="read-more-btn bg-[#22745A] hover:bg-[#1a5743] text-white px-4 py-2 rounded-lg transition-all duration-300" data-service="brand-profiling">
+                  Read More
+                </button>
+              </div>
+            </div>
+          
+            <!-- Service 2 -->
+            <div class="bg-gray-900 rounded-lg border border-[#22745A] overflow-hidden opacity-0 transform translate-y-10 transition-all duration-1000" data-aos="fade-up">
+              <div class="p-6">
+                <h3 class="text-xl font-bold mb-4">SEO</h3>
+                <p class="text-gray-300 mb-4">Optimize your online presence for maximum visibility and organic traffic.</p>
+                <button class="read-more-btn bg-[#22745A] hover:bg-[#1a5743] text-white px-4 py-2 rounded-lg transition-all duration-300" data-service="seo">
+                  Read More
+                </button>
+              </div>
+            </div>
+          
+            <!-- Service 3 -->
+            <div class="bg-gray-900 rounded-lg border border-[#22745A] overflow-hidden opacity-0 transform translate-y-10 transition-all duration-1000" data-aos="fade-up">
+              <div class="p-6">
+                <h3 class="text-xl font-bold mb-4">Social Media Marketing</h3>
+                <p class="text-gray-300 mb-4">Engage your audience through strategic social media campaigns.</p>
+                <button class="read-more-btn bg-[#22745A] hover:bg-[#1a5743] text-white px-4 py-2 rounded-lg transition-all duration-300" data-service="social-media">
+                  Read More
+                </button>
+              </div>
+            </div>
+          
+            <!-- Service 4 -->
+            <div class="bg-gray-900 rounded-lg border border-[#22745A] overflow-hidden opacity-0 transform translate-y-10 transition-all duration-1000" data-aos="fade-up">
+              <div class="p-6">
+                <h3 class="text-xl font-bold mb-4">Email Marketing</h3>
+                <p class="text-gray-300 mb-4">Drive conversions through targeted email campaigns.</p>
+                <button class="read-more-btn bg-[#22745A] hover:bg-[#1a5743] text-white px-4 py-2 rounded-lg transition-all duration-300" data-service="email-marketing">
+                  Read More
+                </button>
+              </div>
+            </div>
+          
+            <!-- Service 5 -->
+            <div class="bg-gray-900 rounded-lg border border-[#22745A] overflow-hidden opacity-0 transform translate-y-10 transition-all duration-1000" data-aos="fade-up">
+              <div class="p-6">
+                <h3 class="text-xl font-bold mb-4">WhatsApp Targeting</h3>
+                <p class="text-gray-300 mb-4">Reach customers directly through WhatsApp marketing solutions.</p>
+                <button class="read-more-btn bg-[#22745A] hover:bg-[#1a5743] text-white px-4 py-2 rounded-lg transition-all duration-300" data-service="whatsapp">
+                  Read More
+                </button>
+              </div>
+            </div>
+          
+            <!-- Service 6 -->
+            <div class="bg-gray-900 rounded-lg border border-[#22745A] overflow-hidden opacity-0 transform translate-y-10 transition-all duration-1000" data-aos="fade-up">
+              <div class="p-6">
+                <h3 class="text-xl font-bold mb-4">Performance Analytics</h3>
+                <p class="text-gray-300 mb-4">Track and analyze your marketing performance metrics.</p>
+                <button class="read-more-btn bg-[#22745A] hover:bg-[#1a5743] text-white px-4 py-2 rounded-lg transition-all duration-300" data-service="analytics">
+                  Read More
+                </button>
+              </div>
+            </div>
+          
+            <!-- Service 7 -->
+            <div class="bg-gray-900 rounded-lg border border-[#22745A] overflow-hidden opacity-0 transform translate-y-10 transition-all duration-1000" data-aos="fade-up">
+              <div class="p-6">
+                <h3 class="text-xl font-bold mb-4">Paid Advertising</h3>
+                <p class="text-gray-300 mb-4">Maximize ROI through strategic paid advertising campaigns.</p>
+                <button class="read-more-btn bg-[#22745A] hover:bg-[#1a5743] text-white px-4 py-2 rounded-lg transition-all duration-300" data-service="advertising">
+                  Read More
+                </button>
+              </div>
+            </div>
+          
+            <!-- Service 8 -->
+            <div class="bg-gray-900 rounded-lg border border-[#22745A] overflow-hidden opacity-0 transform translate-y-10 transition-all duration-1000" data-aos="fade-up">
+              <div class="p-6">
+                <h3 class="text-xl font-bold mb-4">Website Development</h3>
+                <p class="text-gray-300 mb-4">Create responsive and engaging websites for your business.</p>
+                <button class="read-more-btn bg-[#22745A] hover:bg-[#1a5743] text-white px-4 py-2 rounded-lg transition-all duration-300" data-service="development">
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service Modal -->
+        <div id="serviceModal" class="fixed inset-0 bg-black bg-opacity-75 hidden items-center justify-center z-50">
+          <div class="bg-gray-800 rounded-lg w-[90%] md:w-[80%] max-h-[80vh] overflow-y-auto">
+              <div class="sticky top-0 bg-gray-900 p-6 border-b border-[#22745A]">
+                  <div class="flex justify-between items-center">
+                      <h3 id="modalTitle" class="text-2xl font-bold text-[#22745A]"></h3>
+                      <button id="closeModal" class="text-gray-400 hover:text-white">
+                          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                          </svg>
+                      </button>
+                  </div>
+              </div>
+              <div class="p-6">
+                  <p id="modalContent" class="text-gray-300"></p>
+              </div>
+          </div>
+      </div>
+    </section>
+
+      </section>
+
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const modal = document.getElementById('serviceModal');
+            const modalTitle = document.getElementById('modalTitle');
+            const modalContent = document.getElementById('modalContent');
+            const closeModal = document.getElementById('closeModal');
+            
+            const serviceContent = {
+            
+              'brand-profiling': {
+                title: 'Brand Profiling',
+                content: `
+                  <h1 style="font-size:x-large; font-weight:700;">Master the Art of Brand Profiling with Networkspace</h1>
+                  <p font-size:large><strong>At Networkspace, we believe your brand is more than just a business</strong> — it’s a story, a personality, and an experience that resonates with your audience. Your brand is your most valuable asset, and nurturing it should be your top priority.</p>
+
+                  <h2 style="font-size:x-large; font-weight:700;">Why Branding Matters More Than Ever</h2>
+                  <ul>
+                    <li><strong>&#8226;  Authenticity and Emotional Resonance:</strong> Modern consumers are drawn to brands that build connections rather than merely pushing promotions.</li>
+                    <li><strong>&#8226;  Relatable and Engaging Content:</strong> Value-driven content wins hearts over promotional campaigns.</li>
+                  </ul>
+
+                  <p style=" font-weight:400;">To achieve success, you need a strategic approach that balances <strong>creativity</strong> with <strong>data-driven insights</strong>. Remember, branding and marketing are dynamic fields where perfection is elusive, and <em>experimentation</em> is essential.</p>
+
+                  <h2 style="font-size:x-large; font-weight:  700;">Let Networkspace Help You Shine</h2>
+                  <p><strong>Not sure where to start?</strong> Networkspace is here to guide you with expert strategies tailored to your unique brand needs.</p>
+
+                  <h3 style="font-size:large; font-weight:600;">Our Services:</h3>
+                  <ul>
+                    <li><strong>&#8226;  Brand Identity Development:</strong> From logos to taglines, we craft every element to reflect your brand’s essence.</li>
+                    <li><strong>&#8226;  Strategic Marketing Plans:</strong> Data-backed strategies to ensure your brand reaches the right audience.</li>
+                    <li><strong>&#8226;  Creative Content Creation:</strong> Emotional, engaging, and effective content that connects and converts.</li>
+                    <li><strong>&#8226;  Brand Profiling and Positioning:</strong> Stand out in your industry with a distinctive brand persona.</li>
+                  </ul>
+
+                  <p>At Networkspace, we don’t just create brands; we create <em>experiences that last.</em> Whether you’re launching a new venture or rebranding an existing business, our solutions are designed to help you dominate the market <strong>beautifully and authentically.</strong></p>
+
+                  <p><strong>Contact Networkspace Today</strong> and take the first step toward creating a brand that stands the test of time.</p>`
+              },
+
+              'seo': {
+                title: 'SEO Optimization',
+                content: `
+                  <h1 style="font-size:larger; font-weight:700;">Driving Organic Success with Networkspace’s Search Engine Optimization</h1>
+                  <p><strong>In today's digital landscape, effective Search Engine Optimization (SEO)</strong> is the cornerstone of driving organic traffic, boosting visibility, and staying ahead of the competition. At Networkspace, we specialize in delivering tailored SEO marketing solutions designed to catapult your brand to the top of search engine results pages (SERPs).</p>
+
+                  <h2 style="font-size:larger; font-weight:700;">Data-Driven SEO Strategies for Maximum Impact</h2>
+                  <p>Our approach to SEO is powered by advanced data analytics and industry-leading tools. By leveraging insights from <strong>Google Analytics, Ahrefs, SEMRUSH</strong>, and other cutting-edge platforms, we identify critical areas for optimization and implement strategic enhancements to keep your business ranking consistently high on search engines.</p>
+
+                  <ul>
+                    <li>&#8226;  Analyze your website’s performance metrics.</li>
+                    <li>&#8226;  Identify high-performing keywords.</li>
+                    <li>&#8226;  Detect and fix site crawl errors.</li>
+                    <li>&#8226;  Generate actionable insights to refine your strategy.</li>
+                  </ul>
+
+                  <h2 style="font-size:larger; font-weight:700;">Comprehensive SEO Services Tailored to Your Needs</h2>
+                  <p>Our team of SEO experts covers every aspect of optimization, ensuring your website is fully equipped to compete in a crowded digital space. Here’s how we help:</p>
+
+                  <ul>
+                    <li><strong>&#8226;  Technical SEO:</strong> Optimize site speed, mobile responsiveness, and crawlability to ensure seamless search engine indexing.</li>
+                    <li><strong>&#8226;  On-Page Optimization:</strong> Enhance content with target keywords, meta tags, and structured data to improve relevance and user engagement.</li>
+                    <li><strong>&#8226;  Content Strategy:</strong> Develop high-quality, engaging content that aligns with user intent and search engine algorithms.</li>
+                    <li><strong>Link Building:</strong>4. Build authoritative backlinks to boost your site’s domain authority and credibility.</li>
+                  </ul>
+
+                  <h2 style="font-size:larger; font-weight:700;">Why Choose Networkspace for SEO?</h2>
+                  <ul>
+                    <li><strong>&#8226;  Expertise Backed by Results:</strong> With years of experience and proven methodologies, our team ensures measurable improvements in organic traffic and rankings.</li>
+                    <li><strong>&#8226;  Customized Strategies:</strong> We understand that every business is unique. That’s why our SEO solutions are designed to align with your specific goals and industry demands.</li>
+                    <li><strong>&#8226;  Continuous Optimization:</strong> SEO isn’t a one-time task. We consistently monitor, analyze, and adjust strategies to keep your site ahead of the curve.</li>
+                  </ul>
+
+                  <p>Whether you’re looking to improve your website’s searchability, enhance your content strategy, or drive sustainable growth, <strong>Networkspace’s SEO solutions</strong> are your gateway to success. Partner with us and experience the power of data-driven SEO that delivers results.</p>`
+              },
+
+              'social-media': {
+                title: 'Social Media Marketing',
+                content: `
+                  <h2 style="font-size:larger; font-weight:700;"><strong>Social Media Marketing</strong></h2>
+                  <p>Social media marketing at Networkspace turns loyal audiences into high-value leads.</p>
+                  <p>At Networkspace, our expert social media marketers stay ahead of the curve, leveraging the latest social media trends to craft strategies tailored to your brand's unique vision. We focus on creating measurable goals and delivering results while aligning with your schedule, budget, and objectives.</p>
+                  <h3 style="font-size:larger; font-weight:700;"><strong>Engage, Nurture, and Convert</strong></h3>
+                  <p>Our approach begins with creative and engaging post ideas that captivate your audience and spark meaningful interactions. We then nurture these connections to foster a loyal and sustainable online community. Finally, with strategically designed calls to action, we convert engaged followers into high-quality leads that drive your business growth.</p>
+                  <p>Choose Networkspace for data-driven social media marketing that boosts brand visibility, grows your online presence, and delivers measurable success. Let us help you turn social engagement into tangible business results.</p>
+                `,
+              },
+
+              'email-marketing': {
+                title: "Email Marketing",
+                content: `
+                  <h2 style="font-size:larger; font-weight:700;"><strong>Email Marketing Services</strong></h2>
+                  <p>Reach your target group with precision and impact!</p>
+                  <p>At Networkspace, we specialize in delivering optimized email marketing solutions designed to help you connect directly with your targeted group. Through our expert email campaigns, we ensure your business stands out, builds meaningful relationships, and drives conversions.</p>
+                  <h3 style="font-size:larger; font-weight:700;"><strong>Our Email Marketing Services include:</strong></h3>
+                  <ul>
+                    <li>&#8226; <strong> Custom Email Templates:</strong> Tailored designs that reflect your brand identity and captivate your audience.</li>
+                    <li>&#8226; <strong> Advanced Copywriting:</strong> Persuasive, results-driven email copy that resonates with your potential customers and motivates action.</li>
+                    <li>&#8226; <strong> Analytical Tracking & Reporting:</strong> Gain insights into your campaigns with real-time performance metrics and detailed reports to refine your strategies.</li>
+                  </ul>
+                  <p>We go beyond sending emails. At Networkspace, our approach ensures that every campaign aligns with your customers’ values, preferences, and needs, fostering trust and loyalty. Whether you're launching a new product, promoting a service, or building long-term customer relationships, our data-driven email marketing strategies maximize your reach and ROI.</p>
+                  <h3 style="font-size:larger; font-weight:700;"><strong>Why Choose Networkspace?</strong></h3>
+                  <ul>
+                    <li>&#8226; <strong> Personalized Campaigns:</strong> We customize each email to ensure it speaks directly to your audience, driving better engagement and results.</li>
+                    <li>&#8226; <strong> Proven Strategies:</strong> Our campaigns are backed by industry research, best practices, and the latest marketing trends to ensure success.</li>
+                    <li>&#8226; <strong> Direct Audience Connection:</strong> Email marketing remains one of the most effective tools for directly reaching potential customers and nurturing them through the sales funnel.</li>
+                  </ul>
+                  <p>Join Networkspace to deliver impactful messages that strengthen your brand and drive measurable growth. Let us help you build lasting connections with your customers through the power of email marketing!</p>
+                  <p><strong>Get in touch with us</strong> to learn more about our services and get started on transforming your email marketing efforts.</p>
+                `,
+              },
+
+              'whatsapp': {
+                title: 'WhatsApp Targeting',
+                content: `
+                  <h2 style="font-size:larger; font-weight:700;"><strong>WhatsApp Targeting</strong></h2>
+                  <p><strong>Engage Your Audience Where It Matters Most</strong><br>
+                    At Networkspace, we transform WhatsApp into a powerful marketing platform that connects you directly with your customers.</p>
+                  <p>Unlock the potential of instant, personal communication with our WhatsApp marketing strategies.</p>
+                  <p>With over 2 billion active users worldwide, WhatsApp offers an unprecedented opportunity for direct, meaningful customer engagement.</p>
+                  <h3 style="font-size:larger; font-weight:700;"><strong>Our WhatsApp Marketing Approach</strong></h3>
+                  <ul>
+                    <li>&#8226; <strong>Targeted Campaigns:</strong> Personalized messaging that speaks directly to your audience.</li>
+                    <li>&#8226; <strong>Automated Messaging:</strong> 24/7 customer interaction through smart chatbots.</li>
+                    <li>&#8226; <strong>Rich Media Messaging:</strong> Share videos, images, and interactive content.</li>
+                    <li>&#8226; <strong>Advanced Analytics:</strong> Track and optimize your WhatsApp marketing performance.</li>
+                  </ul>
+                  <h3 style="font-size:larger; font-weight:700;"><strong>Why Choose WhatsApp Marketing?</strong></h3>
+                  <ul>
+                    <li>&#8226; Instant, direct communication.</li>
+                    <li>&#8226; Higher engagement rates.</li>
+                    <li>&#8226; Global reach.</li>
+                    <li>&#8226; Cost-effective marketing.</li>
+                  </ul>
+                  <p>Networkspace helps you leverage WhatsApp as a powerful tool to build authentic connections, generate leads, and drive business growth.</p>
+                  <p><strong>Contact Networkspace Today</strong> and revolutionize your customer engagement strategy.</p>
+                `,
+              },
+
+              'analytics': {
+                  title: 'Performance Analytics',
+                  content: `
+                    
+                    <h2 style="font-size:larger; font-weight:700;">Performance Analytics</h2>
+                    <p class="intro"><strong>Transform Data into Actionable Insights</strong><br>
+                      At Networkspace, we turn raw data into strategic opportunities.</p>
+                    <p>Data is the cornerstone of modern business strategy. Our performance analytics services provide the insights you need to make informed decisions.</p>
+                    <p><strong>Comprehensive Analytics Services</strong></p>
+                    <ul>
+                      <li>&#8226; <strong>Real-Time Data Tracking:</strong> Monitor website traffic, conversions, and engagement</li>
+                      <li>&#8226; <strong>Custom Dashboards:</strong> Tailored reporting that gives you a clear view of your performance</li>
+                      <li>&#8226; <strong>Audience Behavior Analysis:</strong> Understand how customers interact with your brand</li>
+                      <li>&#8226; <strong>Conversion Rate Optimization:</strong> Identify and eliminate barriers to customer conversion</li>
+                    </ul>
+                    <p><strong>Key Benefits</strong></p>
+                    <ul>
+                      <li>&#8226; Data-driven marketing strategies</li>
+                      <li>&#8226; Improved customer insights</li>
+                      <li>&#8226; Measurable business growth</li>
+                      <li>&#8226; Competitive advantage through intelligent analytics</li>
+                    </ul>
+                    <p>Networkspace empowers your business with actionable insights that translate data into tangible success.</p>
+                    <p><strong>Contact Networkspace Today</strong> and take control of your business performance.</p>
+                  `,
+              },
+
+              "advertising": {
+                "title": "Paid Advertising",
+                "content": `
+                  <h2 style="font-size:larger; font-weight:700;" >Paid Advertising</h2>
+                  <p class="intro"><strong>Amplify Your Brand's Reach</strong><br>
+                    At Networkspace, we craft targeted paid advertising strategies that deliver measurable results.</p>
+                  <p>Maximize your marketing impact with precision-targeted advertising solutions.</p>
+                  <p>In a crowded digital marketplace, paid advertising is your key to standing out and reaching the right audience at the right time.</p>
+                  <h3 style="font-size:larger; font-weight:700;"><strong>Our Paid Advertising Expertise</strong></h3>
+                  <ul>
+                    <li>&#8226; <strong>Strategic Campaign Planning:</strong> Targeted ads that deliver maximum ROI.</li>
+                    <li>&#8226; <strong>Multi-Platform Advertising:</strong> Comprehensive coverage across digital channels.</li>
+                    <li>&#8226; <strong>Advanced Targeting:</strong> Precision targeting based on demographics, interests, and behavior.</li>
+                    <li>&#8226; <strong>Continuous Optimization:</strong> Data-driven adjustments to improve performance.</li>
+                  </ul>
+                  <h3 style="font-size:larger; font-weight:700;"><strong>Advertising Platforms We Excel In</strong></h3>
+                  <ul>
+                    <li>&#8226; Google Ads</li>
+                    <li>&#8226; Facebook and Instagram Ads</li>
+                    <li>&#8226; LinkedIn Ads</li>
+                    <li>&#8226; Twitter Ads</li>
+                    <li>&#8226; Programmatic Advertising Platforms</li>
+                  </ul>
+                  <p style="font-size:larger; font-weight:700;"><strong>Why Choose Networkspace?</strong></p>
+                  <ul>
+                    <li>&#8226; Maximized return on investment through precise ad placement and audience targeting.</li>
+                    <li>&#8226; Expertise in managing multi-channel campaigns for broader reach and better results.</li>
+                    <li>&#8226; Data-driven insights to refine strategies and enhance performance continuously.</li>
+                  </ul>
+                  <p>Partner with Networkspace to unlock the true potential of paid advertising. We’ll help you attract, engage, and convert your target audience effectively.</p>
+                  <p><strong>Contact Networkspace Today</strong> to elevate your advertising game and achieve unparalleled growth.</p>
+                `
+              },
+
+              'development': {
+                title: 'Web Development',
+                content: `
+                    <h1 style="font-size:larger; font-weight:700;">Website Development</h1>
+                    <p class="intro" style="font-size: 1.2em;"><strong>Build Your Digital Success Story</strong><br>
+                        At Networkspace, we create websites that are more than just digital platforms - they're powerful business tools.
+                    </p>
+                    <p style="font-size: 1em;">Transform your online presence with cutting-edge web development solutions.</p>
+                    
+                    <h2 style="font-size:larger; font-weight:700;">Website Development</h2>
+                    <p class="intro" style="font-size: 1.2em;"><strong>Build Your Digital Success Story</strong><br>
+                        At Networkspace, we create websites that are powerful business tools.
+                    </p>
+                    <p style="font-size: 1em;">Your website is your digital storefront, your brand's most important marketing asset. We build websites that don't just look great, but drive real business results.</p>
+                    
+                    <p style="font-size: 1.2em; font-weight: bold;">Our Web Development Services</p>
+                    <ul style="font-size: 1em; margin-left: 1.5em;">
+                        <li>&#8226; <strong>Custom Website Design:</strong> Unique, brand-aligned digital experiences</li>
+                        <li>&#8226; <strong>Responsive Development:</strong> Seamless performance across all devices</li>
+                        <li>&#8226; <strong>SEO-Optimized Structures:</strong> Improved search engine visibility</li>
+                        <li>&#8226; <strong>E-Commerce Solutions:</strong> Robust online selling platforms</li>
+                    </ul>
+                    
+                    <p style="font-size: 1.2em; font-weight: bold;">Technology Expertise</p>
+                    <ul style="font-size: 1em; margin-left: 1.5em;">
+                        <li>&#8226; Modern Frameworks (React, Vue, Angular)</li>
+                        <li>&#8226; Responsive Design</li>
+                        <li>&#8226; CMS Integration</li>
+                        <li>&#8226; Performance Optimization</li>
+                    </ul>
+                    
+                    <p style="font-size: 1em;">Networkspace turns your digital vision into a high-performing, user-friendly website that represents your brand perfectly.</p>
+                    
+                    <p style="font-size: 1.2em; font-weight: bold;">Contact Networkspace Today</p>
+                    <p style="font-size: 1em;">and start your web development journey.</p>
+                `,
+            }
+
+            };
+
+            document.querySelectorAll('.read-more-btn').forEach(button => {
+                button.addEventListener('click', () => {
+                    const service = button.dataset.service;
+                    const content = serviceContent[service];
+                    modalTitle.textContent = content.title;
+                    modalContent.innerHTML = content.content;
+                    modal.classList.remove('hidden');
+                    modal.classList.add('flex');
+                    document.body.style.overflow = 'hidden';
+                });
+            });
+
+            closeModal.addEventListener('click', () => {
+                modal.classList.add('hidden');
+                modal.classList.remove('flex');
+                document.body.style.overflow = 'auto';
+            });
+
+            window.addEventListener('click', (e) => {
+                if (e.target === modal) {
+                    modal.classList.add('hidden');
+                    modal.classList.remove('flex');
+                    document.body.style.overflow = 'auto';
+                }
+            });
+
+            // Animation on scroll
+            function isInViewport(element) {
+                const rect = element.getBoundingClientRect();
+                return (
+                    rect.top >= 0 &&
+                    rect.left >= 0 &&
+                    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+                );
+            }
+
+            function handleScrollAnimation() {
+                const elements = document.querySelectorAll('[data-aos]');
+                elements.forEach(element => {
+                    if (isInViewport(element)) {
+                        element.style.opacity = '1';
+                        element.style.transform = 'translate(0, 0)';
+                    }
+                });
+            }
+
+            handleScrollAnimation();
+            window.addEventListener('scroll', handleScrollAnimation);
+        });
+      </script>
+
+
+    </htmlCode>
+  </section>
+  
+  <!-- ################################################## -->
+   
+
+  <!--COMPONENT 5 -->
+
+  <div id="service_popup" class="fixed inset-0 bg-black bg-opacity-80 hidden items-center justify-center z-50">
+      <div class="relative bg-gray-900 rounded-lg w-11/12 md:w-11/12 max-w-3xl mx-auto my-4 max-h-[90vh] overflow-hidden">
+        <!-- Header -->
+        <div class="sticky top-0 bg-gray-900 p-4 md:p-6 border-b border-[#22745A] flex justify-between items-center">
+          <div class="flex items-center space-x-3 md:space-x-4">
+            <div class="w-1 h-8 md:h-12 bg-[#22745A]"></div>
+            <h3 id="popupTitle" class="text-xl md:text-2xl font-bold text-[#22745A] break-words"></h3>
+          </div>
+          <button id="closePopup" class="text-gray-400 hover:text-white transition-colors duration-300 p-2">
+            <svg class="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+            </svg>
+          </button>
+        </div>
+    
+        <!-- Content -->
+        <div class="p-4 md:p-6 overflow-y-auto max-h-[calc(90vh-80px)] md:max-h-[calc(90vh-100px)]">
+          <div id="popupContent" class="text-gray-300 space-y-3 md:space-y-4 text-sm md:text-base">
+            <!-- Content will be dynamically inserted here -->
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script>
+    
+    document.addEventListener('DOMContentLoaded', function() {
+      const popup = document.getElementById('service_popup');
+      const closeBtn = document.getElementById('closePopup');
+      const title = document.getElementById('popupTitle');
+      const content = document.getElementById('popupContent');
+    
+      // Function to open popup
+      window.openServicePopup = function(serviceId) {
+        const service = serviceDetails[serviceId];
+        if (service) {
+          title.textContent = service.title;
+          content.innerHTML = service.content;
+          popup.classList.remove('hidden');
+          popup.classList.add('flex');
+          document.body.style.overflow = 'hidden';
+        }
+      }
+    
+      // Close popup handlers
+      const closePopup = () => {
+        popup.classList.add('hidden');
+        popup.classList.remove('flex');
+        document.body.style.overflow = 'auto';
+      };
+    
+      closeBtn.addEventListener('click', closePopup);
+      
+      popup.addEventListener('click', (e) => {
+        if (e.target === popup) {
+          closePopup();
+        }
+      });
+    
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && !popup.classList.contains('hidden')) {
+          closePopup();
+        }
+      });
+    });
+  </script>
+  
+  <!-- ################################################## -->
+   
+
+  <!--COMPONENT 6:ABOUT US-->
+
+  <style>
+    #about_section {
+      position: relative;
+      background-image: url('/static/images/brandingbackground.png');
+      background-attachment: fixed;
+      background-size: cover;
+    }
+  
+    @media (max-width: 768px) {
+      #about_section {
+        background-attachment: scroll;
+      }
+    }
+  </style>
+  
+  <section id="about_section" class="relative bg-black text-white py-12 md:py-20 px-4 lg:px-8 bg-cover bg-center bg-no-repeat">
+    <div class="max-w-6xl mx-auto">
+      <!-- Section Header -->
+      <div class="text-center mb-8 md:mb-16 opacity-0 transform translate-y-10 transition-all duration-1000" data-aos="fade-up">
+        <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6">
+          About <span class="text-[#22745A]">Us</span>
+        </h2>
+        <div class="h-1 w-24 bg-[#22745A] mx-auto"></div>
+      </div>
+  
+      <!-- About Content -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-12 items-center">
+        <!-- Left Column - Our Mission -->
+        <div class="opacity-0 transform translate-y-10 md:-translate-x-10 transition-all duration-1000" data-aos="fade-right">
+          <div class="bg-gray-900 p-6 md:p-8 rounded-lg border border-[#22745A] h-full">
+            <h3 class="text-xl md:text-3xl font-bold mb-4 md:mb-6 text-[#22745A]">Our Mission</h3>
+            <p class="text-gray-300 leading-relaxed mb-4 md:mb-6 text-lg md:text-lg">
+              We are a passionate, creative, and dedicated team, committed to delivering best-in-class brand profiling and digital marketing solutions. At Networkspace, our mission is to empower brands to amplify their identity and unlock their true potential in the ever-evolving Network space.
+            </p>
+          </div>
+        </div>
+  
+        <!-- Right Column - Our Expertise -->
+        <div class="opacity-0 transform translate-y-10 md:translate-x-10 transition-all duration-1000" data-aos="fade-left">
+          <div class="bg-gray-900 p-6 md:p-8 rounded-lg border border-[#22745A] h-full">
+            <h3 class="text-xl md:text-3xl font-bold mb-4 md:mb-6 text-[#22745A]">Our Expertise</h3>
+            <p class="text-gray-300 leading-relaxed mb-4 md:mb-6 text-lg md:text-lg">
+              We specialize in helping brands connect with their audience, promote their unique value propositions, and thrive in the Business. By identifying potential customers and creating tailored strategies, we enable our clients to grow their businesses and enhance their industry presence, driving increased growth and value.
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Additional Features -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mt-8 md:mt-16">
+        <!-- Feature 1 -->
+        <div class="bg-gray-900 p-4 md:p-6 rounded-lg border border-[#22745A] opacity-0 transform translate-y-10 transition-all duration-1000" data-aos="fade-up" data-aos-delay="100">
+          <div class="text-[#22745A] mb-3 md:mb-4">
+            <svg class="w-8 h-8 md:w-12 md:h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+            </svg>
+          </div>
+          <h4 class="text-lg md:text-xl font-bold mb-2">Proven Results</h4>
+          <p class="text-gray-300 text-sm md:text-base">Delivering measurable outcomes that drive business growth</p>
+        </div>
+  
+        <!-- Feature 2 -->
+        <div class="bg-gray-900 p-4 md:p-6 rounded-lg border border-[#22745A] opacity-0 transform translate-y-10 transition-all duration-1000" data-aos="fade-up" data-aos-delay="200">
+          <div class="text-[#22745A] mb-3 md:mb-4">
+            <svg class="w-8 h-8 md:w-12 md:h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+            </svg>
+          </div>
+          <h4 class="text-lg md:text-xl font-bold mb-2">Innovation</h4>
+          <p class="text-gray-300 text-sm md:text-base">Staying ahead with cutting-edge marketing strategies</p>
+        </div>
+  
+        <!-- Feature 3 -->
+        <div class="bg-gray-900 p-4 md:p-6 rounded-lg border border-[#22745A] opacity-0 transform translate-y-10 transition-all duration-1000" data-aos="fade-up" data-aos-delay="300">
+          <div class="text-[#22745A] mb-3 md:mb-4">
+            <svg class="w-8 h-8 md:w-12 md:h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+            </svg>
+          </div>
+          <h4 class="text-lg md:text-xl font-bold mb-2">Client Focus</h4>
+          <p class="text-gray-300 text-sm md:text-base">Dedicated to your success with personalized solutions</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+      const animateElements = () => {
+          const elements = document.querySelectorAll('[data-aos]');
+          
+          const observer = new IntersectionObserver((entries) => {
+              entries.forEach(entry => {
+                  if (entry.isIntersecting) {
+                      entry.target.style.opacity = '1';
+                      entry.target.style.transform = 'translate(0, 0)';
+                      observer.unobserve(entry.target);
+                  }
+              });
+          }, {
+              threshold: 0.1,
+              rootMargin: '0px'
+          });
+  
+          elements.forEach(element => {
+              observer.observe(element);
+          });
+      };
+  
+      // Initial animation for elements already in viewport
+      animateElements();
+  
+      // Handle elements that become visible on scroll
+      window.addEventListener('scroll', animateElements, { passive: true });
+      
+      // Handle elements on resize
+      window.addEventListener('resize', animateElements, { passive: true });
+  });
+  </script>
+  
+  <!-- ################################################## -->
+   
+
+  <!--COMPONENT 7-->
+  <section id="contact_form" class="relative bg-black text-white py-20 px-4 lg:px-8">
+      <!-- Background Image Container -->
+      <div class="absolute inset-0 z-0">
+          <div 
+              class="w-full h-full bg-cover bg-center bg-no-repeat opacity-15"
+              style="background-image: url('/static/images/amongusbg.png');">
+          </div>
+      </div>
+
+      <!-- Main Content with Higher z-index -->
+      <div class="relative z-10 max-w-6xl mx-auto">
+          <!-- Section Header -->
+          <div class="text-center mb-16 opacity-0 transform translate-y-10 transition-all duration-1000" data-aos="fade-up">
+              <h2 class="text-4xl lg:text-5xl font-bold mb-6">
+                  Get in <span class="text-[#22745A]">Touch</span>
+              </h2>
+              <div class="h-1 w-24 bg-[#22745A] mx-auto mb-8"></div>
+              <p class="text-gray-300 max-w-2xl mx-auto">
+                  Ready to elevate your digital presence? Reach out to us and let's discuss how we can help grow your business.
+              </p>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="max-w-2xl mx-auto">
+              <form id="contactForm" class="space-y-6 opacity-0 transform translate-y-10 transition-all duration-1000" data-aos="fade-up">
+                  <!-- Name Field -->
+                  <div class="group">
+                      <label for="name" class="block text-sm font-medium text-gray-300 mb-2">Name</label>
+                      <input
+                          type="text"
+                          id="name"
+                          name="name"
+                          required
+                          class="w-full px-4 py-3 bg-gray-900 border border-[#22745A] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#22745A] focus:border-transparent transition-all duration-300 text-white"
+                          placeholder="Your Name"
+                      >
+                  </div>
+
+                  <!-- Phone Field -->
+                  <div class="group">
+                      <label for="phone" class="block text-sm font-medium text-gray-300 mb-2">Phone</label>
+                      <input
+                          type="tel"
+                          id="phone"
+                          name="phone"
+                          required
+                          class="w-full px-4 py-3 bg-gray-900 border border-[#22745A] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#22745A] focus:border-transparent transition-all duration-300 text-white"
+                          placeholder="Your Phone Number"
+                      >
+                  </div>
+
+                  <!-- Email Field -->
+                  <div class="group">
+                      <label for="email" class="block text-sm font-medium text-gray-300 mb-2">Email</label>
+                      <input
+                          type="email"
+                          id="email"
+                          name="email"
+                          required
+                          class="w-full px-4 py-3 bg-gray-900 border border-[#22745A] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#22745A] focus:border-transparent transition-all duration-300 text-white"
+                          placeholder="Your Email"
+                      >
+                  </div>
+
+                  <!-- Requirements Field -->
+                  <div class="group">
+                      <label for="requirements" class="block text-sm font-medium text-gray-300 mb-2">Requirements</label>
+                      <textarea
+                          id="requirements"
+                          name="requirements"
+                          rows="4"
+                          required
+                          class="w-full px-4 py-3 bg-gray-900 border border-[#22745A] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#22745A] focus:border-transparent transition-all duration-300 text-white resize-none"
+                          placeholder="Tell us about your requirements"
+                      ></textarea>
+                  </div>
+
+                  <!-- Submit Button -->
+                  <div class="text-center">
+                      <button
+                          type="submit"
+                          class="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-[#22745A] hover:bg-[#1a5743] transition-all duration-300 transform hover:scale-105"
+                      >
+                          Send Message
+                          <svg class="ml-2 -mr-1 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+                          </svg>
+                      </button>
+                  </div>
+              </form>
+          </div>
+      </div>
+
+      <!-- Success Message Modal -->
+      <div id="successModal" class="fixed inset-0 bg-black bg-opacity-75 hidden items-center justify-center z-50">
+          <div class="bg-gray-900 rounded-lg p-8 max-w-md text-center border border-[#22745A]">
+              <div class="text-[#22745A] mb-4">
+                  <svg class="mx-auto w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                  </svg>
+              </div>
+              <h3 class="text-2xl font-bold mb-4">Thank You!</h3>
+              <p class="text-gray-300 mb-6">Your message has been sent successfully. We'll get back to you soon.</p>
+              <button onclick="closeSuccessModal()" class="bg-[#22745A] text-white px-6 py-2 rounded-lg hover:bg-[#1a5743] transition-all duration-300">
+                  Close
+              </button>
+          </div>
+      </div>
+  </section>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+          const form = document.getElementById('contactForm');
+          const successModal = document.getElementById('successModal');
+      
+          form.addEventListener('submit', async function(e) {
+              e.preventDefault();
+              
+              // Get form data
+              const formData = {
+                  name: form.querySelector('#name').value,
+                  phone: form.querySelector('#phone').value,
+                  email: form.querySelector('#email').value,
+                  requirements: form.querySelector('#requirements').value
+              };
+      
+              try {
+                  const response = await fetch('/api/submit-contact/', {
+                      method: 'POST',
+                      headers: {
+                          'Content-Type': 'application/json',
+                      },
+                      body: JSON.stringify(formData)
+                  });
+      
+                  if (response.ok) {
+                      // Show success modal
+                      successModal.classList.remove('hidden');
+                      successModal.classList.add('flex');
+                      
+                      // Reset form
+                      form.reset();
+                  } else {
+                      throw new Error('Form submission failed');
+                  }
+              } catch (error) {
+                  console.error('Error:', error);
+                  alert('There was an error submitting the form. Please try again.');
+              }
+          });
+      
+          window.closeSuccessModal = function() {
+              successModal.classList.add('hidden');
+              successModal.classList.remove('flex');
+          }
+
+          // Animation on scroll
+          function isInViewport(element) {
+              const rect = element.getBoundingClientRect();
+              return (
+                  rect.top >= 0 &&
+                  rect.left >= 0 &&
+                  rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                  rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+              );
+          }
+
+          function handleScrollAnimation() {
+              const elements = document.querySelectorAll('[data-aos]');
+              elements.forEach(element => {
+                  if (isInViewport(element)) {
+                      element.style.opacity = '1';
+                      element.style.transform = 'translate(0, 0)';
+                  }
+              });
+          }
+
+          handleScrollAnimation();
+          window.addEventListener('scroll', handleScrollAnimation);
+      });
+  </script>
+  <!-- ################################################## -->
+   
+
+  <!--COMPONENT 8-->
+  <section id="section-8583baeb-f59a-47ff-b97c-0458360c73db">
+    <htmlCode>
+      <footer id="footer" class="bg-gray-900 text-white border-t border-[#22745A]">
+        <div class="max-w-6xl mx-auto px-4 py-12">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <!-- Company Info -->
+            <div>
+              <h3 class="text-xl font-bold text-[#22745A] mb-4">Network Space</h3>
+              <p class="text-gray-300 mb-4">
+                Elevating brands through innovative digital marketing solutions.
+              </p>
+              <div class="flex space-x-4">
+                <a href="#" class="text-gray-300 hover:text-[#22745A] transition-colors duration-300">
+                  <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                </a>
+                <a href="#" class="text-gray-300 hover:text-[#22745A] transition-colors duration-300">
+                  <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
+                </a>
+                <a href="#" class="text-gray-300 hover:text-[#22745A] transition-colors duration-300">
+                  <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                </a>
+                <a href="#" class="text-gray-300 hover:text-[#22745A] transition-colors duration-300">
+                  <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.897 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.897-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg>
+                </a>
+              </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div>
+              <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+              <ul class="space-y-2">
+                <li><a href="#mission_statement" class="text-gray-300 hover:text-[#22745A] transition-colors duration-300">Home</a></li>
+                <li><a href="#about_section" class="text-gray-300 hover:text-[#22745A] transition-colors duration-300">About Us</a></li>
+                <li><a href="#services_grid" class="text-gray-300 hover:text-[#22745A] transition-colors duration-300">Services</a></li>
+                <li><a href="#contact_form" class="text-gray-300 hover:text-[#22745A] transition-colors duration-300">Contact</a></li>
+              </ul>
+            </div>
+
+            <!-- Services -->
+            <div>
+              <h3 class="text-xl font-bold mb-4">Services</h3>
+              <ul class="space-y-2">
+                <li><a href="#services_grid" class="text-gray-300 hover:text-[#22745A] transition-colors duration-300">Brand Profiling</a></li>
+                <li><a href="#services_grid" class="text-gray-300 hover:text-[#22745A] transition-colors duration-300">SEO Optimization</a></li>
+                <li><a href="#services_grid" class="text-gray-300 hover:text-[#22745A] transition-colors duration-300">Social Media Marketing</a></li>
+                <li><a href="#services_grid" class="text-gray-300 hover:text-[#22745A] transition-colors duration-300">Email Marketing</a></li>
+                <li><a href="#services_grid" class="text-gray-300 hover:text-[#22745A] transition-colors duration-300">Paid Advertising</a></li>
+                <li><a href="#services_grid" class="text-gray-300 hover:text-[#22745A] transition-colors duration-300">Web Development</a></li>
+                <li><a href="#services_grid" class="text-gray-300 hover:text-[#22745A] transition-colors duration-300">Whatsapp Targeting</a></li>
+                <li><a href="#services_grid" class="text-gray-300 hover:text-[#22745A] transition-colors duration-300">Performance Marketing</a></li>
+              </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div>
+              <h3 class="text-xl font-bold mb-4">Contact Us</h3>
+              <ul class="space-y-2">
+                <li class="flex items-center text-gray-300">
+                  <svg class="w-5 h-5 mr-2 text-[#22745A]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                  </svg>
+                  team@networkspace.com
+                </li>
+                <li class="flex items-center text-gray-300">
+                  <svg class="w-5 h-5 mr-2 text-[#22745A]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                  </svg>
+                  +91 832-8423151
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Copyright -->
+          <div class="border-t border-gray-800 mt-12 pt-8 text-center">
+            <p class="text-gray-400">
+              © 2024 Network Space. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
+    </htmlCode>
+  </section>
+
+</body>
+</html>
