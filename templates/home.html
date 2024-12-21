@@ -302,7 +302,7 @@
   <style>
     #mission_statement {
       position: relative;
-      background-image: url('/static/images/roadbg.gif');
+      background-image: url('{% static 'images/roadbg.gif' %}');
     }
   
     #mission_statement::before {
@@ -353,7 +353,7 @@
     <div class="absolute inset-0">
         <div 
             class="h-full w-full bg-cover bg-center opacity-35"
-            style="background-image: url('static/images/component2bg.png');">
+            style="background-image: url('{% static 'images/component2bg.png' %}');">
         </div>
     </div>
 
@@ -557,7 +557,7 @@
   <!--COMPONENT 4 : OUR SERVICES -->
       <section id="services_grid" 
         class="bg-black text-white py-20 px-4 lg:px-8 relative" 
-        style="background: url('static/images/bgdesign1.png') no-repeat center center; background-size: cover; opacity: 1;">
+        style="background: url('{% static 'images/bgdesign1.png' %}') no-repeat center center; background-size: cover; opacity: 1;">
         <div class="absolute inset-0 bg-black opacity-90"></div> <!-- Added for extra opacity layer -->
         <div class="relative max-w-6xl mx-auto">
           <!-- Section Header -->
@@ -1057,7 +1057,7 @@
   <style>
     #about_section {
       position: relative;
-      background-image: url('/static/images/brandingbackground.png');
+      background-image: url('{% static 'images/brandingbackground.png' %}');
       background-attachment: fixed;
       background-size: cover;
     }
@@ -1183,7 +1183,7 @@
       <div class="absolute inset-0 z-0">
           <div 
               class="w-full h-full bg-cover bg-center bg-no-repeat opacity-15"
-              style="background-image: url('/static/images/amongusbg.png');">
+              style="background-image: url('{% static 'images/amongusbg.png' %}');">
           </div>
       </div>
 
