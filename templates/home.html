@@ -170,6 +170,7 @@
 
   <style>
     html, body {font-family: 'Playfair Display', serif; scroll-behavior: smooth; margin: 0; padding: 0; height: 100%;  }
+
   </style>
 </head>
 
@@ -298,51 +299,60 @@
   
 
   <!-- COMPONENT 1: ELEVATION-->
+  <section id="mission_statement" class="relative bg-black text-white py-20 px-4 lg:px-8 bg-cover bg-center bg-no-repeat">
+    <!-- Background Opacity -->
+    <div class="absolute inset-0 bg-black opacity-10 z-10"></div>
+    <div class="relative max-w-6xl mx-auto z-20">
+      <!-- Hero Heading -->
+      <div class="text-center mb-16 opacity-0 transform translate-y-10 transition-all duration-1000" data-aos="fade-up">
+        <h1 class="text-3xl lg:text-6xl font-bold mb-8">
+          <span class="text-[#FFFFFFFF]">Elevate</span> your Branding Experience & Marketing Strategies with<br />
+          <span class="text-[#22745A]">Network Space</span>
+        </h1>
+        <a href="#contact_form" class="inline-block bg-[#22745A] hover:bg-[#1a5743] text-white font-bold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105">
+          Get in Touch
+        </a>
+      </div>
+  
+      <!-- Main Description -->
+      <div class="mb-16 opacity-0 transform translate-y-10 transition-all duration-1000" data-aos="fade-up" data-aos-delay="200">
+        <p id="elevationpara" class="text-base lg:text-xl text-justify leading-relaxed text-gray-300 font-semibold text-center font-light">
+          <span class="text-xl lg:text-3xl font-bold text-[#22745A]">Network Space's</span> Expert Digital Marketing and Brand Profiling Solutions helps you craft customized digital marketing strategies tailored to your business goals. From SEO optimization and content marketing to paid advertising campaigns, we employ proven methods to enhance your brand visibility in this digital network space. Our goal is to drive high-quality traffic to your business, convert visitors into leads, and transform leads into sales, ensuring measurable results that grow your business exponentially.
+        </p>
+      </div>
+    </div>
+  </section>
+  
   <style>
     #mission_statement {
       position: relative;
       background-image: url('{% static 'images/snow.gif' %}');
     }
-  
+    
     #mission_statement::before {
       content: '';
       position: absolute;
       inset: 0;
-      background: rgba(0, 0, 0, 0.50); /* Increased to 0.55 to make background GIF opacity 45% */
+      background: rgba(0, 0, 0, 0.50);
       z-index: 10;
     }
-    #elevationpara{
+    
+    #elevationpara {
       font-weight: 600;
+      line-height: 1.5;
+      font-size: 1rem; /* Base size for mobile */
     }
+    
+    @media (min-width: 1024px) {
+      #elevationpara {
+        font-size: x-large; /* Original desktop size */
+      }
+    }
+    
     #mission_statement .relative {
       z-index: 20;
     }
-    </style>
-    
-    <section id="mission_statement" class="relative bg-black text-white py-20 px-4 lg:px-8 bg-cover bg-center bg-no-repeat">
-      <!-- Background Opacity -->
-      <div class="absolute inset-0 bg-black opacity-10 z-10"></div>
-      <div class="relative max-w-6xl mx-auto z-20">
-        <!-- Hero Heading -->
-        <div class="text-center mb-16 opacity-0 transform translate-y-10 transition-all duration-1000" data-aos="fade-up">
-          <h1 class="text-4xl lg:text-6xl font-bold mb-8">
-            <span class="text-[#FFFFFFFF]">Elevate</span> your Branding Experience & Marketing Strategies with<br />
-            <span class="text-[#22745A]">Network Space</span>
-          </h1>
-          <a href="#contact_form" class="inline-block bg-[#22745A] hover:bg-[#1a5743] text-white font-bold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105">
-            Get in Touch
-          </a>
-        </div>
-    
-        <!-- Main Description -->
-        <div class="mb-16 opacity-0 transform translate-y-10 transition-all duration-1000" data-aos="fade-up" data-aos-delay="200">
-          <p id="elevationpara" class="text-lg lg:text-xl text-justify leading-relaxed text-gray-300 font-semibold text-center font-light" style="line-height:1.5; font-size:x-large;">
-            <span class="text-2xl lg:text-3xl font-bold text-[#22745A]">Network Space's</span> Expert Digital Marketing and Brand Profiling Solutions helps you craft customized digital marketing strategies tailored to your business goals. From SEO optimization and content marketing to paid advertising campaigns, we employ proven methods to enhance your brand visibility in this digital network space. Our goal is to drive high-quality traffic to your business, convert visitors into leads, and transform leads into sales, ensuring measurable results that grow your business exponentially.
-          </p>
-        </div>
-      </div>
-  </section>
-
+  </style>
   <!-- ################################################## -->
 
 
@@ -358,27 +368,27 @@
 
     <!-- Content Section -->
     <div class="relative max-w-6xl mx-auto">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
             <!-- Left Column -->
             <div class="opacity-0 transform -translate-x-10 transition-all duration-1000 animate-on-scroll" data-aos="fade-right">
-                <h2 class="text-4xl lg:text-5xl font-bold mb-6">
+                <h2 class="text-3xl lg:text-5xl font-bold mb-4 lg:mb-6">
                     <span class="text-[#22745A]">Experience</span> the Power of<br/>
                     Digital Branding
                 </h2>
-                <div class="h-1 w-24 bg-[#22745A] mb-8"></div>
-                <p class="text-xl text-gray-300 leading-relaxed">
+                <div class="h-1 w-24 bg-[#22745A] mb-6 lg:mb-8"></div>
+                <p class="text-base lg:text-xl text-gray-300 leading-relaxed">
                     In today's digital-first world, every product or service is just a click away. Building a strong online presence is essential to becoming the preferred choice for your audience. With Networkspace, you can reach millions of potential customers through effective digital marketing strategies. Announce your brand to the world, dominate your niche, and watch your business thrive.
                 </p>
             </div>
 
             <!-- Right Column -->
             <div class="opacity-0 transform translate-x-10 transition-all duration-1000 animate-on-scroll" data-aos="fade-left">
-                <div class="bg-gray-900 p-8 rounded-lg border border-[#22745A]">
-                    <h2 class="text-4xl lg:text-5xl font-bold mb-6">
+                <div class="bg-gray-900 p-6 lg:p-8 rounded-lg border border-[#22745A]">
+                    <h2 class="text-3xl lg:text-5xl font-bold mb-4 lg:mb-6">
                         Why <span class="text-[#22745A]">Us</span>?
                     </h2>
-                    <div class="h-1 w-24 bg-[#22745A] mb-8"></div>
-                    <p class="text-xl text-gray-300 leading-relaxed">
+                    <div class="h-1 w-24 bg-[#22745A] mb-6 lg:mb-8"></div>
+                    <p class="text-base lg:text-xl text-gray-300 leading-relaxed">
                         We stand out as a top-tier digital marketing and branding agency by delivering unparalleled services that focus on results. Our approach involves understanding your objectives, creating targeted campaigns, and deploying fresh, relevant content to maximize your ROI.
                     </p>
                 </div>
@@ -393,7 +403,6 @@
                 const rect = element.getBoundingClientRect();
                 const windowHeight = window.innerHeight || document.documentElement.clientHeight;
                 
-                // Modified viewport calculation to trigger earlier on mobile
                 return (
                     (rect.top <= windowHeight * 0.8 && rect.bottom >= 0) ||
                     (rect.bottom >= 0 && rect.top <= windowHeight)
@@ -411,10 +420,8 @@
                 });
             }
 
-            // Initial check on page load
             setTimeout(animateOnScroll, 100);
 
-            // Add scroll event listener with throttling
             let scrollTimeout;
             window.addEventListener('scroll', function() {
                 if (!scrollTimeout) {
@@ -425,10 +432,7 @@
                 }
             });
 
-            // Handle resize events
             window.addEventListener('resize', animateOnScroll);
-
-            // Force check visibility on orientation change for mobile devices
             window.addEventListener('orientationchange', function() {
                 setTimeout(animateOnScroll, 100);
             });
@@ -436,22 +440,27 @@
     </script>
 
     <style>
-        /* Default - No transition on mobile */
         .animate-on-scroll {
             opacity: 0;
             transform: translateX(10px);
-            transition: none; /* Disable transition on mobile */
+            transition: none;
         }
 
         @media (min-width: 1024px) {
-            /* For desktop and larger screens, enable transition */
             .animate-on-scroll {
                 transition: opacity 1s ease, transform 1s ease;
             }
         }
-    </style>
-  </section>
 
+        /* Additional responsive adjustments */
+        @media (max-width: 1023px) {
+            #digital_branding {
+                padding-top: 3rem;
+                padding-bottom: 3rem;
+            }
+        }
+    </style>
+</section>
   <!-- ################################################## -->
 
   <!--COMPONENT 3 : WHY CHOOSE NETWORK SPACE-->
@@ -503,13 +512,30 @@
         </div>
 
         <!-- Highlighted Message -->
-        <div class="mt-16 text-center opacity-0 transform translate-y-10 transition-all duration-1000 animate-on-scroll" data-aos="fade-up">
-            <div class="bg-gradient-to-r from-[#22745A]/20 to-[#22745A]/5 p-8 rounded-lg border border-[#22745A]">
-                <p class="text-2xl font-bold">
-                    Let us help you build traction, see results, and establish your brand as a leading force in the business network
-                </p>
-            </div>
-        </div>
+        <div class="mt-16 text-center opacity-0 transform translate-y-10 transition-all duration-1000 animate-on-scroll" data-aos="fade-up" style="margin-top: 4rem;">
+          <div style="
+              background: linear-gradient(to right, rgba(34, 116, 90, 0.2), rgba(34, 116, 90, 0.05));
+              padding: 2rem;
+              border-radius: 0.5rem;
+              border: 1px solid #22745A;
+          ">
+              <p class="responsive-text" style="
+                  font-weight: bold;
+                  font-size: 1rem;
+                  line-height: 1.5;
+              ">
+                  Let us help you build traction, see results, and establish your brand as a leading force in the business network
+              </p>
+          </div>
+          
+          <style>
+              @media screen and (min-width: 1024px) {
+                  .responsive-text {
+                      font-size: 1.25rem !important;
+                  }
+              }
+          </style>
+      </div>
     </div>
 
     <!-- Updated Script -->
@@ -1070,90 +1096,106 @@
 
   <!--COMPONENT 6:ABOUT US-->
 
-  <style>
-    #about_section {
-      position: relative;
-      background-image: url('{% static 'images/brandingbackground.png' %}');
-      background-attachment: fixed;
-      background-size: cover;
-    }
-  
-    @media (max-width: 768px) {
+    <style>
       #about_section {
-        background-attachment: scroll;
+        position: relative;
+        background-image: url('{% static 'images/brandingbackground.png' %}');
+        background-attachment: fixed;
+        background-size: cover;
       }
-    }
+    
+      @media (max-width: 768px) {
+        #about_section {
+          background-attachment: scroll;
+        }
+
+        #about_section h2 {
+          font-size: 1.875rem !important; /* text-3xl - standard heading size for mobile */
+        }
+
+        #about_section h3 {
+          font-size: 1.5rem !important; /* text-2xl - standard subheading size for mobile */
+        }
+
+        #about_section h4 {
+          font-size: 1.125rem !important; /* text-lg - standard feature heading size for mobile */
+        }
+
+        #about_section p {
+          font-size: 1rem !important; /* text-base - standard text size for mobile */
+        }
+      }
   </style>
-  
+    
   <section id="about_section" class="relative bg-black text-white py-12 md:py-20 px-4 lg:px-8 bg-cover bg-center bg-no-repeat">
-    <div class="max-w-6xl mx-auto">
-      <!-- Section Header -->
-      <div class="text-center mb-8 md:mb-16 opacity-0 transform translate-y-10 transition-all duration-1000" data-aos="fade-up">
-        <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6">
-          About <span class="text-[#22745A]">Us</span>
-        </h2>
-        <div class="h-1 w-24 bg-[#22745A] mx-auto"></div>
+      <div class="max-w-6xl mx-auto">
+        <!-- Section Header -->
+        <div class="text-center mb-8 md:mb-16 opacity-0 transform translate-y-10 transition-all duration-1000" data-aos="fade-up">
+          <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6">
+            About <span class="text-[#22745A]">Us</span>
+          </h2>
+          <div class="h-1 w-24 bg-[#22745A] mx-auto"></div>
+        </div>
+    
+        <!-- About Content -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-12 items-center">
+          <!-- Left Column - Our Mission -->
+          <div class="opacity-0 transform translate-y-10 md:-translate-x-10 transition-all duration-1000" data-aos="fade-right">
+            <div class="bg-gray-900 p-6 md:p-8 rounded-lg border border-[#22745A] h-full">
+              <h3 class="text-2xl md:text-3xl font-bold mb-4 md:mb-6 text-[#22745A]">Our Mission</h3>
+              <p class="text-gray-300 leading-relaxed mb-4 md:mb-6">
+                We are a passionate, creative, and dedicated team, committed to delivering best-in-class brand profiling and digital marketing solutions. At Networkspace, our mission is to empower brands to amplify their identity and unlock their true potential in the ever-evolving Network space.
+              </p>
+            </div>
+          </div>
+    
+          <!-- Right Column - Our Expertise -->
+          <div class="opacity-0 transform translate-y-10 md:translate-x-10 transition-all duration-1000" data-aos="fade-left">
+            <div class="bg-gray-900 p-6 md:p-8 rounded-lg border border-[#22745A] h-full">
+              <h3 class="text-2xl md:text-3xl font-bold mb-4 md:mb-6 text-[#22745A]">Our Expertise</h3>
+              <p class="text-gray-300 leading-relaxed mb-4 md:mb-6">
+                We specialize in helping brands connect with their audience, promote their unique value propositions, and thrive in the Business. By identifying potential customers and creating tailored strategies, we enable our clients to grow their businesses and enhance their industry presence, driving increased growth and value.
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Additional Features -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mt-8 md:mt-16">
+          <!-- Feature 1 -->
+          <div class="bg-gray-900 p-4 md:p-6 rounded-lg border border-[#22745A] opacity-0 transform translate-y-10 transition-all duration-1000" data-aos="fade-up" data-aos-delay="100">
+            <div class="text-[#22745A] mb-3 md:mb-4">
+              <svg class="w-8 h-8 md:w-12 md:h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+            </div>
+            <h4 class="text-lg md:text-xl font-bold mb-2">Proven Results</h4>
+            <p class="text-gray-300">Delivering measurable outcomes that drive business growth</p>
+          </div>
+    
+          <!-- Feature 2 -->
+          <div class="bg-gray-900 p-4 md:p-6 rounded-lg border border-[#22745A] opacity-0 transform translate-y-10 transition-all duration-1000" data-aos="fade-up" data-aos-delay="200">
+            <div class="text-[#22745A] mb-3 md:mb-4">
+              <svg class="w-8 h-8 md:w-12 md:h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+              </svg>
+            </div>
+            <h4 class="text-lg md:text-xl font-bold mb-2">Innovation</h4>
+            <p class="text-gray-300">Staying ahead with cutting-edge marketing strategies</p>
+          </div>
+    
+          <!-- Feature 3 -->
+          <div class="bg-gray-900 p-4 md:p-6 rounded-lg border border-[#22745A] opacity-0 transform translate-y-10 transition-all duration-1000" data-aos="fade-up" data-aos-delay="300">
+            <div class="text-[#22745A] mb-3 md:mb-4">
+              <svg class="w-8 h-8 md:w-12 md:h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+              </svg>
+            </div>
+            <h4 class="text-lg md:text-xl font-bold mb-2">Client Focus</h4>
+            <p class="text-gray-300">Dedicated to your success with personalized solutions</p>
+          </div>
+        </div>
       </div>
-  
-      <!-- About Content -->
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-12 items-center">
-        <!-- Left Column - Our Mission -->
-        <div class="opacity-0 transform translate-y-10 md:-translate-x-10 transition-all duration-1000" data-aos="fade-right">
-          <div class="bg-gray-900 p-6 md:p-8 rounded-lg border border-[#22745A] h-full">
-            <h3 class="text-xl md:text-3xl font-bold mb-4 md:mb-6 text-[#22745A]">Our Mission</h3>
-            <p class="text-gray-300 leading-relaxed mb-4 md:mb-6 text-lg md:text-lg">
-              We are a passionate, creative, and dedicated team, committed to delivering best-in-class brand profiling and digital marketing solutions. At Networkspace, our mission is to empower brands to amplify their identity and unlock their true potential in the ever-evolving Network space.
-            </p>
-          </div>
-        </div>
-  
-        <!-- Right Column - Our Expertise -->
-        <div class="opacity-0 transform translate-y-10 md:translate-x-10 transition-all duration-1000" data-aos="fade-left">
-          <div class="bg-gray-900 p-6 md:p-8 rounded-lg border border-[#22745A] h-full">
-            <h3 class="text-xl md:text-3xl font-bold mb-4 md:mb-6 text-[#22745A]">Our Expertise</h3>
-            <p class="text-gray-300 leading-relaxed mb-4 md:mb-6 text-lg md:text-lg">
-              We specialize in helping brands connect with their audience, promote their unique value propositions, and thrive in the Business. By identifying potential customers and creating tailored strategies, we enable our clients to grow their businesses and enhance their industry presence, driving increased growth and value.
-            </p>
-          </div>
-        </div>
-      </div>
-  
-      <!-- Additional Features -->
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mt-8 md:mt-16">
-        <!-- Feature 1 -->
-        <div class="bg-gray-900 p-4 md:p-6 rounded-lg border border-[#22745A] opacity-0 transform translate-y-10 transition-all duration-1000" data-aos="fade-up" data-aos-delay="100">
-          <div class="text-[#22745A] mb-3 md:mb-4">
-            <svg class="w-8 h-8 md:w-12 md:h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
-            </svg>
-          </div>
-          <h4 class="text-lg md:text-xl font-bold mb-2">Proven Results</h4>
-          <p class="text-gray-300 text-sm md:text-base">Delivering measurable outcomes that drive business growth</p>
-        </div>
-  
-        <!-- Feature 2 -->
-        <div class="bg-gray-900 p-4 md:p-6 rounded-lg border border-[#22745A] opacity-0 transform translate-y-10 transition-all duration-1000" data-aos="fade-up" data-aos-delay="200">
-          <div class="text-[#22745A] mb-3 md:mb-4">
-            <svg class="w-8 h-8 md:w-12 md:h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
-            </svg>
-          </div>
-          <h4 class="text-lg md:text-xl font-bold mb-2">Innovation</h4>
-          <p class="text-gray-300 text-sm md:text-base">Staying ahead with cutting-edge marketing strategies</p>
-        </div>
-  
-        <!-- Feature 3 -->
-        <div class="bg-gray-900 p-4 md:p-6 rounded-lg border border-[#22745A] opacity-0 transform translate-y-10 transition-all duration-1000" data-aos="fade-up" data-aos-delay="300">
-          <div class="text-[#22745A] mb-3 md:mb-4">
-            <svg class="w-8 h-8 md:w-12 md:h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
-            </svg>
-          </div>
-          <h4 class="text-lg md:text-xl font-bold mb-2">Client Focus</h4>
-          <p class="text-gray-300 text-sm md:text-base">Dedicated to your success with personalized solutions</p>
-        </div>
-      </div>
-    </div>
   </section>
   
   <script>
