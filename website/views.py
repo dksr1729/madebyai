@@ -6,16 +6,16 @@ import json
 from django.http import JsonResponse
 def home(request):
     return render(request, 'home.html')
-@csrf_exempt
+@csrf_exempt  # Consider using @csrf_protect with CSRF token handling
 @require_http_methods(["POST"])
 def submit_contact_form(request):
     try:
         data = json.loads(request.body)
-        submission = ContactSubmission.objects.create(
-            name=data.get('name'),
-            phone=data.get('phone'),
-            email=data.get('email'),
-            requirements=data.get('requirements')
+        ContactSubmission.objects.create(
+            name=data['name'],
+            phone=data['phone'],
+            email=data['email'],
+            requirements=data['requirements']
         )
         return JsonResponse({'status': 'success'}, status=200)
     except Exception as e:
