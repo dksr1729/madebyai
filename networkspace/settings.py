@@ -129,6 +129,7 @@ STATICFILES_DIRS = [
 
 # Static files collected for deployment
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
 CSRF_TRUSTED_ORIGINS = [
     'https://networkspace.in',
     'https://www.networkspace.in'  # Add this if your site can be accessed with 'www'.

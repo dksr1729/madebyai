@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://cdn.jsdelivr.net">
   <script src="https://cdn.tailwindcss.com"></script>
-  
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <link rel="icon" href="{% static 'images/logo.png' %}" type="image/x-icon">
       <!-- Enhanced SEO Meta Tags -->
@@ -169,7 +169,7 @@
   
 
   <style>
-    html, body { scroll-behavior: smooth; margin: 0; padding: 0; height: 100%; font-size:1em; }
+    html, body {font-family: 'Playfair Display', serif; scroll-behavior: smooth; margin: 0; padding: 0; height: 100%;  }
   </style>
 </head>
 
@@ -301,14 +301,14 @@
   <style>
     #mission_statement {
       position: relative;
-      background-image: url('{% static 'images/roadbg.gif' %}');
+      background-image: url('{% static 'images/snow.gif' %}');
     }
   
     #mission_statement::before {
       content: '';
       position: absolute;
       inset: 0;
-      background: rgba(0, 0, 0, 0.80); /* Increased to 0.55 to make background GIF opacity 45% */
+      background: rgba(0, 0, 0, 0.50); /* Increased to 0.55 to make background GIF opacity 45% */
       z-index: 10;
     }
     #elevationpara{
@@ -351,7 +351,7 @@
     <!-- Background GIF -->
     <div class="absolute inset-0">
         <div 
-            class="h-full w-full bg-cover bg-center opacity-35"
+            class="h-full w-full bg-cover bg-center opacity-00"
             style="background-image: url('{% static 'images/component2bg.png' %}');">
         </div>
     </div>
@@ -434,7 +434,24 @@
             });
         });
     </script>
+
+    <style>
+        /* Default - No transition on mobile */
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateX(10px);
+            transition: none; /* Disable transition on mobile */
+        }
+
+        @media (min-width: 1024px) {
+            /* For desktop and larger screens, enable transition */
+            .animate-on-scroll {
+                transition: opacity 1s ease, transform 1s ease;
+            }
+        }
+    </style>
   </section>
+
   <!-- ################################################## -->
 
   <!--COMPONENT 3 : WHY CHOOSE NETWORK SPACE-->
@@ -556,8 +573,8 @@
   <!--COMPONENT 4 : OUR SERVICES -->
       <section id="services_grid" 
         class="bg-black text-white py-20 px-4 lg:px-8 relative" 
-        style="background: url('{% static 'images/bgdesign1.png' %}') no-repeat center center; background-size: cover; opacity: 1;">
-        <div class="absolute inset-0 bg-black opacity-90"></div> <!-- Added for extra opacity layer -->
+        style="background: url('{% static 'images/wireswave.png' %}') no-repeat center center; background-size: cover; opacity: 1;">
+        <div class="absolute inset-0 bg-black opacity-40"></div> <!-- Added for extra opacity layer -->
         <div class="relative max-w-6xl mx-auto">
           <!-- Section Header -->
           <div class="text-center mb-16 opacity-0 transform translate-y-10 transition-all duration-1000" data-aos="fade-up">
