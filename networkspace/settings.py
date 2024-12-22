@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 from pathlib import Path
 import os
-import whitenoise
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -39,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'website',
+    "whitenoise.runserver_nostatic",
 ]
 
 MIDDLEWARE = [
@@ -119,14 +119,16 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
 
+# Static files (CSS, JavaScript, Images)
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [
-    BASE_DIR / "static",
-]
-# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-# Enable WhiteNoise to serve static files efficiently
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
+# Directory where static files are stored
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),  # Ensure 'static' folder is created in the root
+]
+
+# Static files collected for deployment
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 CSRF_TRUSTED_ORIGINS = [
     'https://networkspace.in',
     'https://www.networkspace.in'  # Add this if your site can be accessed with 'www'.

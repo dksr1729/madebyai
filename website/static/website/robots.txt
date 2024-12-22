@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /admin/
+Allow: /static/
+Allow: /private/
+Allow: /scripts/
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.networkspace.in/sitemap.xml
