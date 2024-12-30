@@ -26,6 +26,9 @@ SECRET_KEY = 'django-insecure-9t6kot@dt)94nxs($b)#cc(@80%jz1e(n6f1e2bwl*w4)s0$o#
 DEBUG = False
 
 ALLOWED_HOSTS = ['*']
+CAPTCHA_FONT_SIZE = 42
+CAPTCHA_LENGTH = 6
+CAPTCHA_TIMEOUT = 300  # Time in seconds
 
 
 # Application definition
@@ -38,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'website',
+    'captcha',
     "whitenoise.runserver_nostatic",
 ]
 

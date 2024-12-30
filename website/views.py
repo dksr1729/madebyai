@@ -4,9 +4,12 @@ from django.views.decorators.http import require_http_methods
 from .models import ContactSubmission
 import json
 from django.http import JsonResponse
+
+
 def home(request):
     return render(request, 'home.html')
-@csrf_exempt  # Consider using @csrf_protect with CSRF token handling
+
+@csrf_exempt 
 @require_http_methods(["POST"])
 def submit_contact_form(request):
     try:
